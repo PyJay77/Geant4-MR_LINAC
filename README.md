@@ -167,3 +167,33 @@ This simulation provides a controlled framework to study key dosimetric effects 
 - Medical physics–oriented geometry and scoring
 
 ---
+## How to Run the Simulation
+
+This project follows a standard **out-of-source Geant4 build workflow**.
+
+### Prerequisites
+- A working **Geant4 installation** (compiled with multithreading support recommended)
+- **CMake** (version 2.6 or later)
+- A C++ compiler compatible with your Geant4 build
+
+Make sure that the Geant4 environment is properly configured (e.g. `geant4.sh` sourced).
+
+---
+
+### Build and Run
+
+From the root directory of the repository:
+
+```bash
+# Create the build directory
+mkdir build
+cd build
+
+# Configure the project
+cmake ..
+
+# Compile
+make 
+
+# Run the simulation
+./mrlinac.exe
