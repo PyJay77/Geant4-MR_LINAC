@@ -1,7 +1,3 @@
-# Geant4-MR_LINAC
-In this project I am simulating an MR LINAC , to see the effect of the magnetic field on the secondary electrons together with the absorbed dose. I am still working on hit. 
-
-
 # Monte Carlo Simulation of a Clinical Electron Beam in a Magnetic Field (MR-Linac-like Scenario)
 
 ## Overview
@@ -171,6 +167,3 @@ This simulation provides a controlled framework to study key dosimetric effects 
 - Medical physics–oriented geometry and scoring
 
 ---
-
-
-Additional projects (including Physics-Informed Neural Networks developed in PyTorch) are available on my **GitHub profile**.
